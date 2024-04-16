@@ -1,0 +1,19 @@
+Go to: the store
+choose from: bread
+    whole weat bread
+    white bread
+    rie bread
+pick up: eggs
+choose from: cheese
+    moteralla 
+    chedar
+pick up: pan
+        while pan is not bigger than bread
+            pick up new pan
+pick up: butter
+choose from: would you like to steal the food?
+    yes
+    no
+if (yes) cheackout
+go to: home
+go to: kitchen 
