@@ -1,0 +1,13 @@
+.picture {
+    width: 250px;
+  }
+  img {
+    width: 100%;
+  }
+
+  footer {
+    color: blueviolet
+  }
+
+main {display: flex;
+}
