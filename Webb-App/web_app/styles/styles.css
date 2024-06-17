@@ -11,3 +11,46 @@
 
 main {display: flex;
 }
+
+.title{
+  font-weight: bold;
+  font-size: 7.5rem;
+  color: antiquewhite;
+  text-shadow: 0.1rem 0.1rem rgb(241, 198, 57);
+  }
+  .subtitle{
+  margin-top: 125px;
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-shadow: 0.1rem 0.1rem rgb(36, 139, 165);
+  
+  }
+  .options{
+      margin-top: 40px;
+  }
+  .options button{
+      font-size: 6.5rem;
+      margin: 0 6px;
+      border-radius: 10px;
+      background-color: rgb(100, 94, 94);
+      transition: backround-color 0.3s ease;
+      cursor: pointer;
+      color: beige;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: 0.15rem 0.15rem rgb(0, 0, 0);
+  
+  }
+  .options button:hover{
+      background-color: rgb(122, 212, 86);
+  }
+  .backround-image {
+      background-image: 
+      url(E160B54F-BF34-4DD4-A596-B6AB27FD943E.jpg);
+      height: 100vh;
+      width: 100vw;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
